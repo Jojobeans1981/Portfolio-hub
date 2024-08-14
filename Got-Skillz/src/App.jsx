@@ -20,8 +20,29 @@ function App() {
 
       {/* Main Content */}
       <main>
-        <p>Welcome to my professional landing page!</p>
+   {/* Featured Projects Section */}
+   <section>
+          <h2>Featured Projects</h2>
+          <div className="projects">
+            <div className="project">
+              <h3>Project 1</h3>
+              <p>Description of Project 1.</p>
+              <a href="https://github.com/your-project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+            <div className="project">
+              <h3>Project 2</h3>
+              <p>Description of Project 2.</p>
+              <a href="https://github.com/your-project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+            <div className="project">
+              <h3>Project 3</h3>
+              <p>Description of Project 3.</p>
+              <a href="https://github.com/your-project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+          </div>
+        </section>
       </main>
+
 
       {/* Footer */}
       <footer>
