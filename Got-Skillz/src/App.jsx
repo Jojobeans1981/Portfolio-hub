@@ -9,6 +9,13 @@ function App() {
       {/* Header */}
       <header>
         <h1>Joe's Digital Portfolio Hub</h1>
+        <nav>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://your-portfolio-website.com" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+          </ul>
+        </nav>
       </header>
 
       {/* Main Content */}
